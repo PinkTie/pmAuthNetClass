@@ -40,7 +40,7 @@ define("AUTHORIZENET_SANDBOX", true);  // True = use Authorize.Net's sandbox url
 
 
 ## USAGE
-  
+ ````php 
   Reference the class
   $sale = new pmAuthnet(AUTHORIZENET_API_LOGIN_ID, AUTHORIZENET_TRANSACTION_KEY, AUTHORIZENET_SANDBOX);
   
@@ -67,6 +67,7 @@ define("AUTHORIZENET_SANDBOX", true);  // True = use Authorize.Net's sandbox url
   Get Response Messages
   ie: $sale->getResponseText     // Message
   ie: $sale->getResponseSubCode  // Returned Code
+```
  
 
 ## Example
